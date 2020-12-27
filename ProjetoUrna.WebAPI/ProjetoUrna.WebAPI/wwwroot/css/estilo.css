@@ -1,0 +1,99 @@
+﻿
+body{
+    font-family: Calibri 12px;
+}
+
+a, a:hover {
+    color: inherit;
+}
+
+
+button {
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+}
+
+button:hover {
+    font-weight: bold;
+    color: #009879;
+    background-color: #ffffff;
+    text-align: left;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.voto-prefeito-input, .voto-vereador-input {
+    border: none;
+    
+    background: repeating-linear-gradient(90deg, dimgrey 0, dimgrey 1ch, transparent 0, transparent 1.5ch) 0 100%/100% 2px no-repeat;
+    color: dimgrey;
+    font: 21px consolas, monospace;
+    letter-spacing: .2ch;
+    padding-top: 00px;
+}
+
+.voto-prefeito-input {
+    background: repeating-linear-gradient(90deg, dimgrey 0, dimgrey 1ch, transparent 0, transparent 1.5ch) 0 100%/100% 1px no-repeat;
+    color: dimgrey;
+    width: 35px;
+    letter-spacing: .3ch;
+    padding-top: 00px;
+}
+
+.voto-vereador-input {
+    background: repeating-linear-gradient(90deg, dimgrey 0, dimgrey 1ch, transparent 0, transparent 1.5ch) 0 100%/100% 1px no-repeat;
+    color: dimgrey;
+    width: 85px;
+    letter-spacing: .4ch;
+    padding-top: 00px;
+}
+
+.voto-prefeito-input, .voto-vereador-input {
+    outline: none;
+    color: grey
+}
+
+
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+
+.styled-table thead tr {
+    font-weight: bold;
+    background-color: #009879;
+    text-align: left;
+}
+
+thead th{
+    color: white;
+}
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+    .styled-table tbody tr:nth-of-type(even) {
+        background-color: #f3f3f3;
+    }
+
+    .styled-table tbody tr:last-of-type {
+        border-bottom: 2px solid #009879;
+    }
+.styled-table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}

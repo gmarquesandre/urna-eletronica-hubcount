@@ -1,0 +1,54 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\404.html" />
+    <Content Remove="wwwroot\css\bootstrap-theme.min.css" />
+    <Content Remove="wwwroot\css\bootstrap.min.css" />
+    <Content Remove="wwwroot\index.html" />
+    <Content Remove="wwwroot\js\.htaccess" />
+    <Content Remove="wwwroot\js\controllers\candidato-controller.js" />
+    <Content Remove="wwwroot\js\controllers\candidatos-controller - Cópia.js" />
+    <Content Remove="wwwroot\js\controllers\candidatos-controller.js" />
+    <Content Remove="wwwroot\js\lib\.DS_Store" />
+    <Content Remove="wwwroot\js\lib\angular-animate.min.js" />
+    <Content Remove="wwwroot\js\lib\angular-animate.min.js.map" />
+    <Content Remove="wwwroot\js\lib\angular-resource.min.js" />
+    <Content Remove="wwwroot\js\lib\angular-resource.min.js.map" />
+    <Content Remove="wwwroot\js\lib\angular-route.min.js" />
+    <Content Remove="wwwroot\js\lib\angular-route.min.js.map" />
+    <Content Remove="wwwroot\js\lib\angular.min.js" />
+    <Content Remove="wwwroot\js\lib\angular.min.js.map" />
+    <Content Remove="wwwroot\js\main.js" />
+    <Content Remove="wwwroot\js\principal.html" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\css\bootstrap-theme.min.css" />
+    <None Include="wwwroot\css\bootstrap.min.css" />
+    <None Include="wwwroot\404.html" />
+    <None Include="wwwroot\index.html" />
+    <None Include="wwwroot\js\controllers\candidatos-controller.js" />
+    <None Include="wwwroot\js\lib\.DS_Store" />
+    <None Include="wwwroot\js\lib\angular-animate.min.js" />
+    <None Include="wwwroot\js\lib\angular-animate.min.js.map" />
+    <None Include="wwwroot\js\lib\angular-resource.min.js" />
+    <None Include="wwwroot\js\lib\angular-resource.min.js.map" />
+    <None Include="wwwroot\js\lib\angular-route.min.js" />
+    <None Include="wwwroot\js\lib\angular-route.min.js.map" />
+    <None Include="wwwroot\js\lib\angular.min.js" />
+    <None Include="wwwroot\js\lib\angular.min.js.map" />
+    <None Include="wwwroot\js\main.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
+  </ItemGroup>
+
+  <ProjectExtensions><VisualStudio><UserProperties properties_4launchsettings_1json__JsonSchema="" /></VisualStudio></ProjectExtensions>
+
+</Project>

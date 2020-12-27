@@ -1,0 +1,46 @@
+﻿<div>
+    <h1 class="text-center">Voto Vereador </h1>
+
+    <button type="submit" ng-click="voto(0); redirect('index.html#/fim-voto')">
+        Voto em branco
+    </button>
+    <button type="submit" ng-show="filtro.length == 5" ng-href="index.html#/fim-voto.html" ng-click="voto(candidatos.idCandidato) ; redirect('index.html#/fim-voto')">
+        Confirmar Voto
+    </button>
+    <table class="styled-table">
+        <tbody>
+            <tr>
+                <td>
+                    Codigo do Candidato
+                </td>
+                <td>
+                    {{ candidatos.codigoCandidato }}
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Nome do Candidato
+                </td>
+                <td>
+                    {{ candidatos.nomeCandidato }}
+                </td>
+
+            </tr>
+            <tr>
+                <td>
+                    Legenda
+                </td>
+                <td>
+                    {{ candidatos.legenda }}
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br />
+    Código do Candidato:
+    <form>
+        <input class="voto-vereador-input" type="text" name="codigoCandidato" ng-model="filtro" placeholder="00000" ng-change="requestCandidato(filtro, 5)" maxlength="5">
+    </form>
+
+</div>

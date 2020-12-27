@@ -1,0 +1,17 @@
+E:\Users\gmarq\Desktop\ProjetoUrna.WebAPI\ProjetoUrna.WebAPI\bin\Debug\netcoreapp2.1\ProjetoUrna.WebAPI.deps.json
+E:\Users\gmarq\Desktop\ProjetoUrna.WebAPI\ProjetoUrna.WebAPI\bin\Debug\netcoreapp2.1\ProjetoUrna.WebAPI.runtimeconfig.json
+E:\Users\gmarq\Desktop\ProjetoUrna.WebAPI\ProjetoUrna.WebAPI\bin\Debug\netcoreapp2.1\ProjetoUrna.WebAPI.runtimeconfig.dev.json
+E:\Users\gmarq\Desktop\ProjetoUrna.WebAPI\ProjetoUrna.WebAPI\bin\Debug\netcoreapp2.1\ProjetoUrna.WebAPI.dll
+E:\Users\gmarq\Desktop\ProjetoUrna.WebAPI\ProjetoUrna.WebAPI\bin\Debug\netcoreapp2.1\ProjetoUrna.WebAPI.pdb
+E:\Users\gmarq\Desktop\ProjetoUrna.WebAPI\ProjetoUrna.WebAPI\obj\Debug\netcoreapp2.1\ProjetoUrna.WebAPI.csprojAssemblyReference.cache
+E:\Users\gmarq\Desktop\ProjetoUrna.WebAPI\ProjetoUrna.WebAPI\obj\Debug\netcoreapp2.1\ProjetoUrna.WebAPI.csproj.CoreCompileInputs.cache
+E:\Users\gmarq\Desktop\ProjetoUrna.WebAPI\ProjetoUrna.WebAPI\obj\Debug\netcoreapp2.1\ProjetoUrna.WebAPI.RazorAssemblyInfo.cache
+E:\Users\gmarq\Desktop\ProjetoUrna.WebAPI\ProjetoUrna.WebAPI\obj\Debug\netcoreapp2.1\ProjetoUrna.WebAPI.RazorAssemblyInfo.cs
+E:\Users\gmarq\Desktop\ProjetoUrna.WebAPI\ProjetoUrna.WebAPI\obj\Debug\netcoreapp2.1\ProjetoUrna.WebAPI.AssemblyInfoInputs.cache
+E:\Users\gmarq\Desktop\ProjetoUrna.WebAPI\ProjetoUrna.WebAPI\obj\Debug\netcoreapp2.1\ProjetoUrna.WebAPI.AssemblyInfo.cs
+E:\Users\gmarq\Desktop\ProjetoUrna.WebAPI\ProjetoUrna.WebAPI\obj\Debug\netcoreapp2.1\ProjetoUrna.WebAPI.RazorTargetAssemblyInfo.cache
+E:\Users\gmarq\Desktop\ProjetoUrna.WebAPI\ProjetoUrna.WebAPI\obj\Debug\netcoreapp2.1\ProjetoUrna.WebAPI.dll
+E:\Users\gmarq\Desktop\ProjetoUrna.WebAPI\ProjetoUrna.WebAPI\obj\Debug\netcoreapp2.1\ProjetoUrna.WebAPI.pdb
+E:\Users\gmarq\Desktop\ProjetoUrna.WebAPI\ProjetoUrna.WebAPI\bin\Debug\netcoreapp2.1\appsettings.Development.json
+E:\Users\gmarq\Desktop\ProjetoUrna.WebAPI\ProjetoUrna.WebAPI\bin\Debug\netcoreapp2.1\appsettings.json
+E:\Users\gmarq\Desktop\ProjetoUrna.WebAPI\ProjetoUrna.WebAPI\obj\Debug\netcoreapp2.1\ProjetoUrna.WebAPI.genruntimeconfig.cache

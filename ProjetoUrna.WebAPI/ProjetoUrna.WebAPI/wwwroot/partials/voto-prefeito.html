@@ -1,0 +1,54 @@
+﻿<div>
+    <h1 class="text-center">Voto Prefeito</h1>
+
+    <button type="submit" ng-click="voto(0); redirect('/index.html#/voto-vereador')">
+        Voto em branco
+    </button>
+    <button type="submit" ng-show="filtro.length == 2" ng-href="index.html#/voto-vereador.html" ng-click="voto(candidatos.idCandidato) ; redirect('/index.html#/voto-vereador')">
+        Confirmar Voto
+    </button>
+    <table class="styled-table">
+        <tbody>
+            <tr>
+                <td>
+                    Codigo do Candidato
+                </td>
+                <td>
+                    {{ candidatos.codigoCandidato }}
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Nome do Candidato
+                </td>
+                <td>
+                    {{ candidatos.nomeCandidato }}
+                </td>
+
+            </tr>
+            <tr>
+                <td>
+                    Nome do Vice
+                </td>
+                <td>
+                    {{ candidatos.nomeVice }}
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Legenda 
+                </td>
+                <td>
+                    {{ candidatos.legenda }}
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br />
+    Código do Candidato:
+    <form>
+        <input class="voto-prefeito-input" type="text" name="codigoCandidato" ng-model="filtro" placeholder="00" ng-change="requestCandidato(filtro, 2)" maxlength="2">
+    </form>
+
+</div>

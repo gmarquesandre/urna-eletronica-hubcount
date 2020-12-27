@@ -1,0 +1,57 @@
+﻿<div>
+    <h1 class="text-center">Adicionar Candidato</h1>
+    <menu-fim-voto></menu-fim-voto>
+
+    <table class="styled-table">
+        <tbody>
+            <tr>
+                <td>
+                    Tipo de Candidato
+                </td>
+                <td>
+                    <select ng-options="option for option in listOfOptions"
+                            ng-model="tipoCandidato"
+                            ng-change="selectedItemChanged();limpaTextos()"></select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Codigo do Candidato
+                </td>
+                <td>
+                    <input pattern="[0-9]+" ng-model="codigoCandidato" ng-class="(tipoCandidato == 'Prefeito'?'voto-prefeito-input':'voto-vereador-input')" maxlength="{{selectedItem == 'Prefeito' ?  2 : 5}} " ng-class="class" type="text" name="inputCodigo" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Legenda
+                </td>
+                <td>
+                    <input ng-model='legenda' />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Nome do Candidato
+                </td>
+                <td>
+                    <input ng-model="nomeCandidato" />
+                </td>
+
+            </tr>
+
+            <tr ng-show="tipoCandidato == 'Prefeito'">
+                <td>
+                    Nome do Vice
+                </td>
+                <td>
+                    <input ng-model='nomeVice' />
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <button ng-click="add_candidato(codigoCandidato,nomeCandidato,legenda,nomeVice,tipoCandidato);redirect('index.html#/tabela-candidatos')">Adicionar Candidato</button>
+    
+</div>
+

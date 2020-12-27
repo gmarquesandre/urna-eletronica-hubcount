@@ -1,0 +1,30 @@
+﻿<h1 class="text-center">Candidatos </h1>
+<menu-fim-voto></menu-fim-voto>
+<table class="styled-table" ng-init="listaCandidatos('')">
+    <thead>
+        <tr>
+            
+            <th>Id</th>
+            <th>Codigo Candidato</th>
+            <th>Tipo Candidato</th>
+            <th>Nome Candidato</th>
+            <th>Nome Vice</th>
+            <th>Legenda</th>
+            <th></th>
+
+        </tr>
+    </thead>
+    <tbody>
+        <tr ng-repeat="candidato in candidatos">
+
+            <th>{{candidato.idCandidato}}</th>
+            <th>{{candidato.codigoCandidato}}</th>
+            <th>{{candidato.tipoCandidato}}</th>
+            <th>{{candidato.nomeCandidato}}</th>
+            <th>{{candidato.nomeVice}}</th>
+            <th>{{candidato.legenda}}</th>
+            <th><button ng-click="changePath(candidato.idCandidato, candidato.codigoCandidato, candidato.nomeCandidato, candidato.nomeVice, candidato.legenda, candidato.tipoCandidato)">Editar Candidato</button></th>
+        </tr>
+    </tbody>
+</table> 
+        

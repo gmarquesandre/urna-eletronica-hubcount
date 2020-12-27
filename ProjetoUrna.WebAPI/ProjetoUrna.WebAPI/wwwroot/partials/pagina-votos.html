@@ -1,0 +1,30 @@
+﻿<h1 class="text-center">Votos </h1>
+<menu-fim-voto></menu-fim-voto>
+
+    <table class="styled-table">
+        <thead>
+            <tr>
+                <th>Id Candidato</th>
+                <th>Codigo Candidato</th>
+                <th>Legenda</th>
+                <th>Nome Candidato</th>
+                <th>Nome Vice</th>
+                <th>Tipo Candidato</th>
+                <th>Votos</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="voto in votos">
+
+                <th>{{voto.idCandidato}}</th>
+                <th>{{voto.codigoCandidato}}</th>
+                <th>{{voto.legenda}}</th>
+                <th>{{voto.nomeCandidato}}</th>
+                <th>{{voto.nomeVice}}</th>
+                <th>{{voto.tipoCandidato}}</th>
+                <th>{{voto.votos}}</th>
+
+            </tr>
+        </tbody>
+
+    </table> 

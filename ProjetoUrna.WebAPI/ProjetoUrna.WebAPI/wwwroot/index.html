@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br" ng-app="urnaEletronica">
+<head>
+    <meta charset="UTF-8">
+    <base href="/index.html">
+    <meta name="viewport" content="width=device-width">
+    <title>Urna Eletrônica</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/estilo.css">
+
+    <script src="js/lib/angular.min.js"></script>
+    <script src="js/main.js"></script>
+
+    <script src="js/controllers/candidatos-controller.js"></script>
+    <script src="js/controllers/post-vote.js"></script>
+    <script src="js/lib/angular-route.min.js"></script>
+
+    <script src="js/lib/md5.min.js"></script>
+    <script src="js/directives/minhas-diretivas.js"></script>
+</head>
+    <body>
+        <div class="container" ng-app="urnaEletronica">
+            <ng-view></ng-view>
+            <!--<minha-tabela-votos>   </minha-tabela-votos>-->
+            <!--<voto-prefeito></voto-prefeito>-->
+            <!--<voto-vereador></voto-vereador>-->
+            <!--<minha-tabela-candidatos>   </minha-tabela-candidatos>-->
+        </div> <!-- fim container -->
+</body>
+</html>
